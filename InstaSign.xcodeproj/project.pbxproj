@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		0410CFBC258E029D00865D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410CFBB258E029D00865D0B /* AppDelegate.swift */; };
 		0410CFBE258E029D00865D0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410CFBD258E029D00865D0B /* SceneDelegate.swift */; };
-		0410CFC0258E029D00865D0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410CFBF258E029D00865D0B /* ViewController.swift */; };
 		0410CFC3258E029D00865D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410CFC1258E029D00865D0B /* Main.storyboard */; };
 		0410CFC6258E029D00865D0B /* InstaSign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0410CFC4258E029D00865D0B /* InstaSign.xcdatamodeld */; };
 		0410CFC8258E02A000865D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0410CFC7258E02A000865D0B /* Assets.xcassets */; };
 		0410CFCB258E02A000865D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410CFC9258E02A000865D0B /* LaunchScreen.storyboard */; };
+		0410CFD9258E02EC00865D0B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410CFD7258E02EC00865D0B /* HomeViewController.swift */; };
+		0410CFDA258E02EC00865D0B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0410CFD8258E02EC00865D0B /* HomeViewController.xib */; };
+		0410CFDF258E030D00865D0B /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410CFDD258E030D00865D0B /* SignViewController.swift */; };
+		0410CFE0258E030D00865D0B /* SignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0410CFDE258E030D00865D0B /* SignViewController.xib */; };
+		0410CFE4258E09CB00865D0B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410CFE2258E09CB00865D0B /* SignUpViewController.swift */; };
+		0410CFE5258E09CB00865D0B /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0410CFE3258E09CB00865D0B /* SignUpViewController.xib */; };
+		0410CFE8258F699100865D0B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410CFE7258F699100865D0B /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0410CFB8258E029D00865D0B /* InstaSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0410CFBB258E029D00865D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0410CFBD258E029D00865D0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0410CFBF258E029D00865D0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0410CFC2258E029D00865D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0410CFC5258E029D00865D0B /* InstaSign.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaSign.xcdatamodel; sourceTree = "<group>"; };
 		0410CFC7258E02A000865D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0410CFCA258E02A000865D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0410CFCC258E02A000865D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410CFD7258E02EC00865D0B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0410CFD8258E02EC00865D0B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0410CFDD258E030D00865D0B /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		0410CFDE258E030D00865D0B /* SignViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignViewController.xib; sourceTree = "<group>"; };
+		0410CFE2258E09CB00865D0B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0410CFE3258E09CB00865D0B /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		0410CFE7258F699100865D0B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,38 @@
 		0410CFBA258E029D00865D0B /* InstaSign */ = {
 			isa = PBXGroup;
 			children = (
+				0410CFD3258E02AC00865D0B /* controller */,
+				0410CFD5258E02B500865D0B /* apputilities */,
 				0410CFBB258E029D00865D0B /* AppDelegate.swift */,
 				0410CFBD258E029D00865D0B /* SceneDelegate.swift */,
-				0410CFBF258E029D00865D0B /* ViewController.swift */,
-				0410CFC1258E029D00865D0B /* Main.storyboard */,
-				0410CFC7258E02A000865D0B /* Assets.xcassets */,
-				0410CFC9258E02A000865D0B /* LaunchScreen.storyboard */,
 				0410CFCC258E02A000865D0B /* Info.plist */,
-				0410CFC4258E029D00865D0B /* InstaSign.xcdatamodeld */,
 			);
 			path = InstaSign;
+			sourceTree = "<group>";
+		};
+		0410CFD3258E02AC00865D0B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0410CFE7258F699100865D0B /* BaseViewController.swift */,
+				0410CFD7258E02EC00865D0B /* HomeViewController.swift */,
+				0410CFD8258E02EC00865D0B /* HomeViewController.xib */,
+				0410CFDD258E030D00865D0B /* SignViewController.swift */,
+				0410CFDE258E030D00865D0B /* SignViewController.xib */,
+				0410CFE2258E09CB00865D0B /* SignUpViewController.swift */,
+				0410CFE3258E09CB00865D0B /* SignUpViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0410CFD5258E02B500865D0B /* apputilities */ = {
+			isa = PBXGroup;
+			children = (
+				0410CFC4258E029D00865D0B /* InstaSign.xcdatamodeld */,
+				0410CFC9258E02A000865D0B /* LaunchScreen.storyboard */,
+				0410CFC7258E02A000865D0B /* Assets.xcassets */,
+				0410CFC1258E029D00865D0B /* Main.storyboard */,
+			);
+			path = apputilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0410CFCB258E02A000865D0B /* LaunchScreen.storyboard in Resources */,
+				0410CFE0258E030D00865D0B /* SignViewController.xib in Resources */,
 				0410CFC8258E02A000865D0B /* Assets.xcassets in Resources */,
 				0410CFC3258E029D00865D0B /* Main.storyboard in Resources */,
+				0410CFE5258E09CB00865D0B /* SignUpViewController.xib in Resources */,
+				0410CFDA258E02EC00865D0B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0410CFC0258E029D00865D0B /* ViewController.swift in Sources */,
+				0410CFE4258E09CB00865D0B /* SignUpViewController.swift in Sources */,
 				0410CFBC258E029D00865D0B /* AppDelegate.swift in Sources */,
 				0410CFC6258E029D00865D0B /* InstaSign.xcdatamodeld in Sources */,
+				0410CFDF258E030D00865D0B /* SignViewController.swift in Sources */,
 				0410CFBE258E029D00865D0B /* SceneDelegate.swift in Sources */,
+				0410CFE8258F699100865D0B /* BaseViewController.swift in Sources */,
+				0410CFD9258E02EC00865D0B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
